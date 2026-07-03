@@ -1,6 +1,6 @@
 # AI Research Assistant
 
-A clean Streamlit application for uploading research papers, asking questions about them, and generating study materials with an LLM. The app supports Google Gemini by default, with optional OpenAI support. The project is intentionally medium-sized: modular enough to show real AI application development, but still readable for a portfolio review.
+A clean Streamlit application for uploading research papers, asking questions about them, and generating study materials with an LLM. The app supports Google Gemini by default, with optional OpenAI support. 
 
 ## Features
 
