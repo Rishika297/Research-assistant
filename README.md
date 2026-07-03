@@ -112,18 +112,6 @@ Run the container:
 docker run -p 8501:8501 --env-file .env ai-research-assistant
 ```
 
-## Deployment
-
-This app can be deployed to Streamlit Community Cloud.
-
-Recommended deployment steps:
-
-1. Push this project to GitHub.
-2. Create a Streamlit Community Cloud app from the repository.
-3. Set `OPENAI_API_KEY` in Streamlit secrets.
-4. For Gemini, set `GOOGLE_API_KEY` or `GEMINI_API_KEY` in Streamlit secrets.
-5. Use `app.py` as the entry point.
-
 For Streamlit secrets, you can access the key by setting it as an environment variable or by entering it in the sidebar at runtime.
 
 ## Example Screenshots
