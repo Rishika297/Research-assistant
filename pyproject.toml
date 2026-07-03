@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "ai-research-assistant"
+version = "0.1.0"
+description = "A Streamlit app for chatting with research papers and generating summaries, flashcards, and quizzes."
+authors = ["Portfolio Project"]
+readme = "README.md"
+packages = [{ include = "backend" }]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+streamlit = "^1.36.0"
+langchain = "^0.2.11"
+langchain-community = "^0.2.10"
+langchain-openai = "^0.1.19"
+faiss-cpu = "^1.8.0"
+sentence-transformers = "^3.0.1"
+pymupdf = "^1.24.9"
+python-dotenv = "^1.0.1"
+tiktoken = "^0.7.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.5.5"
+pytest = "^8.3.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
